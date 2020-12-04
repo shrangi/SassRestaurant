@@ -1,0 +1,31 @@
+@import "../../styles.scss";
+
+footer {
+  background-color: $color-primary;
+  padding: 20px;
+  color: $color-secondary;
+
+  .fa {
+    padding: 10px;
+    font-size: 24px;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    border-radius: 50%;
+    background-color: $color-secondary;
+    color: $color-primary;
+  }
+
+  .fa:hover {
+    background-color: $color-primary;
+    color: $color-white;
+  }
+
+  a {
+    text-decoration: none;
+    margin: 6px 6px;
+    color: $color-secondary;
+  }
+}

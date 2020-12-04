@@ -1,0 +1,25 @@
+@import "../../styles.scss";
+
+header {
+  background-color: $color-primary;
+  text-shadow: 2px 2px black;
+
+  .navbar {
+    height: 120px;
+
+    li {
+      border: 2px solid $color-secondary;
+      border-style: outset;
+      margin: 5px 15px;
+      padding: 0px 20px;
+    }
+  }
+
+  a {
+    color: $color-secondary;
+  }
+
+  .navbar-toggler-icon {
+    background-color: $color-secondary;
+  }
+}

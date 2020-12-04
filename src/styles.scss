@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+$color-primary: #230903;
+$color-primary-light: #656256;
+
+$color-secondary: #d3b88c;
+
+$color-ternary: #9ebc9f;
+
+$color-white: #f4f2f3;
+
+$font-logo: "Sansita Swashed", cursive;
+
+.logo-brand {
+  font-family: $font-logo;
+  font-size: 2.4em;
+}
